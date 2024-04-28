@@ -7,7 +7,8 @@ namespace AddressBookNew
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Address Book Program");
-            while (true)
+            bool condition = true;
+            while (condition)
             {
                 Console.WriteLine("1.Add contact\n2.Edit contact\n3.Delete Contact\n4.Display contacts\n5.Exit");
                 Console.WriteLine("Choose any option : ");
@@ -40,7 +41,35 @@ namespace AddressBookNew
                             Console.WriteLine("Contact not found!");
                         }
                         break;
-               
+                    case 3:
+                        Console.WriteLine("Enter name of contact to delete : ");
+                        string name1= Console.ReadLine();
+                        bool contactFound1 = false;
+                        for(int i=0;i<contacts.Count; i++)
+                        {
+                            if (contacts[i].firstName == name1)
+                            {
+                                contactFound1 = true;
+                                contacts.Remove(contacts[i]);
+                                Console.WriteLine("Contact removed successfully");
+                            }
+                        }
+                        if (contactFound1 == false)
+                        {
+                            Console.WriteLine("Contact not found!");
+                        }
+                        break;
+
+                    case 4:
+                        foreach (Contact contact1 in contacts)
+                        {
+                            contact1.printRecord();
+                        }
+                        break;
+                    case 5:
+                        condition=false;
+                        break;
+
                 }
             }
         }
