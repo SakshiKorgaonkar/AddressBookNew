@@ -8,14 +8,14 @@ namespace AddressBookNew
 {
     internal class Contact
     {
-        private string? firstName;
-        private string? lastName;
-        private string? email;
-        private int? phone;
-        private string? address;
-        private string? city;
-        private string? state;
-        private int? zip;
+        internal string? firstName;
+        internal string? lastName;
+        internal string? email;
+        internal int? phone;
+        internal string? address;
+        internal string? city;
+        internal string? state;
+        internal int? zip;
 
         public void acceptRecord()
         {

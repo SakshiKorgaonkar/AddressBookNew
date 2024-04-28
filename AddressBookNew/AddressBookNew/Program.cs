@@ -20,6 +20,27 @@ namespace AddressBookNew
                         contacts.Add(contact);
                         Console.WriteLine("Contact added successfully");
                         break;
+                    case 2:
+                        Console.WriteLine("Enter name of contact to edit: ");
+                        string name = Console.ReadLine();
+                        bool contactFound = false;
+                        foreach (Contact contact1 in contacts)
+                        {
+                            if (contact1.firstName == name)
+                            {
+                                contactFound = true;
+                                Console.WriteLine("Enter new details for the contact:");
+                                contact1.acceptRecord(); 
+                                Console.WriteLine("Contact edited successfully");
+                                break; 
+                            }
+                        }
+                        if (!contactFound)
+                        {
+                            Console.WriteLine("Contact not found!");
+                        }
+                        break;
+               
                 }
             }
         }
