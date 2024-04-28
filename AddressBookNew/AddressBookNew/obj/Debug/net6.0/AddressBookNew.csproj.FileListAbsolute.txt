@@ -1,0 +1,14 @@
+C:\Users\DELL\OneDrive - HERE Global B.V\Desktop\CDAC\BridgeLabz_day3\AddressBookNew\AddressBookNew\AddressBookNew\bin\Debug\net6.0\AddressBookNew.exe
+C:\Users\DELL\OneDrive - HERE Global B.V\Desktop\CDAC\BridgeLabz_day3\AddressBookNew\AddressBookNew\AddressBookNew\bin\Debug\net6.0\AddressBookNew.deps.json
+C:\Users\DELL\OneDrive - HERE Global B.V\Desktop\CDAC\BridgeLabz_day3\AddressBookNew\AddressBookNew\AddressBookNew\bin\Debug\net6.0\AddressBookNew.runtimeconfig.json
+C:\Users\DELL\OneDrive - HERE Global B.V\Desktop\CDAC\BridgeLabz_day3\AddressBookNew\AddressBookNew\AddressBookNew\bin\Debug\net6.0\AddressBookNew.dll
+C:\Users\DELL\OneDrive - HERE Global B.V\Desktop\CDAC\BridgeLabz_day3\AddressBookNew\AddressBookNew\AddressBookNew\bin\Debug\net6.0\AddressBookNew.pdb
+C:\Users\DELL\OneDrive - HERE Global B.V\Desktop\CDAC\BridgeLabz_day3\AddressBookNew\AddressBookNew\AddressBookNew\obj\Debug\net6.0\AddressBookNew.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\OneDrive - HERE Global B.V\Desktop\CDAC\BridgeLabz_day3\AddressBookNew\AddressBookNew\AddressBookNew\obj\Debug\net6.0\AddressBookNew.AssemblyInfoInputs.cache
+C:\Users\DELL\OneDrive - HERE Global B.V\Desktop\CDAC\BridgeLabz_day3\AddressBookNew\AddressBookNew\AddressBookNew\obj\Debug\net6.0\AddressBookNew.AssemblyInfo.cs
+C:\Users\DELL\OneDrive - HERE Global B.V\Desktop\CDAC\BridgeLabz_day3\AddressBookNew\AddressBookNew\AddressBookNew\obj\Debug\net6.0\AddressBookNew.csproj.CoreCompileInputs.cache
+C:\Users\DELL\OneDrive - HERE Global B.V\Desktop\CDAC\BridgeLabz_day3\AddressBookNew\AddressBookNew\AddressBookNew\obj\Debug\net6.0\AddressBookNew.dll
+C:\Users\DELL\OneDrive - HERE Global B.V\Desktop\CDAC\BridgeLabz_day3\AddressBookNew\AddressBookNew\AddressBookNew\obj\Debug\net6.0\refint\AddressBookNew.dll
+C:\Users\DELL\OneDrive - HERE Global B.V\Desktop\CDAC\BridgeLabz_day3\AddressBookNew\AddressBookNew\AddressBookNew\obj\Debug\net6.0\AddressBookNew.pdb
+C:\Users\DELL\OneDrive - HERE Global B.V\Desktop\CDAC\BridgeLabz_day3\AddressBookNew\AddressBookNew\AddressBookNew\obj\Debug\net6.0\AddressBookNew.genruntimeconfig.cache
+C:\Users\DELL\OneDrive - HERE Global B.V\Desktop\CDAC\BridgeLabz_day3\AddressBookNew\AddressBookNew\AddressBookNew\obj\Debug\net6.0\ref\AddressBookNew.dll
