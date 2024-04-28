@@ -11,11 +11,11 @@ namespace AddressBookNew
         private string? firstName;
         private string? lastName;
         private string? email;
-        private string? phone;
+        private int? phone;
         private string? address;
         private string? city;
         private string? state;
-        private string? zip;
+        private int? zip;
 
         public void acceptRecord()
         {
@@ -25,8 +25,6 @@ namespace AddressBookNew
             lastName=Console.ReadLine();
             Console.WriteLine("Enter email : ");
             email=Console.ReadLine();
-            Console.WriteLine("Enter phone number : ");
-            phone=Console.ReadLine();
             Console.WriteLine("Enter address : ");
             address=Console.ReadLine();
             Console.WriteLine("Enter city : ");
@@ -34,7 +32,9 @@ namespace AddressBookNew
             Console.WriteLine("Enter state : ");
             state=Console.ReadLine();
             Console.WriteLine("Enter zip : ");
-            zip=Console.ReadLine();
+            zip=Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter phone number : ");
+            phone = Convert.ToInt32(Console.ReadLine());
         }
         public void printRecord()
         {
