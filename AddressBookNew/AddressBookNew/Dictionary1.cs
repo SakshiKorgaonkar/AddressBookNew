@@ -31,6 +31,7 @@ namespace AddressBookNew
                         else
                         {
                             dictionary.Add(name,new AddressBookMain());
+                            Console.WriteLine("Address book added successfully");
                         }
                         break;
                         case 2:

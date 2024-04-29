@@ -17,8 +17,14 @@ namespace AddressBookNew
                     case 1:
                         Contact contact = new Contact();
                         contact.acceptRecord();
-                        contacts.Add(contact);
-                        Console.WriteLine("Contact added successfully");
+                        if (contacts.Exists(c => c.firstName.Equals(contact.firstName) && c.lastName.Equals(contact.lastName))){
+                            Console.WriteLine("Contact already exists");
+                        }
+                        else
+                        {
+                            contacts.Add(contact);
+                            Console.WriteLine("Contact added successfully");
+                        }
                         break;
                     case 2:
                         Console.WriteLine("Enter name of contact to edit: ");
