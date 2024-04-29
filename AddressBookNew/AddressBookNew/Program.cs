@@ -3,7 +3,7 @@ namespace AddressBookNew
 {
     internal class AddressBookMain
     {
-        static List<Contact> contacts = new List<Contact>();
+        public List<Contact> contacts = new List<Contact>();
         public void Menu()
         {
             bool condition = true;
@@ -64,7 +64,6 @@ namespace AddressBookNew
                             Console.WriteLine("Contact not found!");
                         }
                         break;
-
                     case 4:
                         foreach (Contact contact1 in contacts)
                         {
@@ -75,7 +74,7 @@ namespace AddressBookNew
                         Console.WriteLine("Enter city/state");
                         string name2= Console.ReadLine();
                         var filteredContacts = contacts.Where(c => c.city.Equals(name2) || c.state.Equals(name2));
-
+                        Console.WriteLine($"The number of contacts with city/state {name2} is : {filteredContacts.Count()}");
                         if (filteredContacts.Any())
                         {
                             foreach(var item in filteredContacts)
