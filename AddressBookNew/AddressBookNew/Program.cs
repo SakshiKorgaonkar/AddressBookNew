@@ -9,7 +9,7 @@ namespace AddressBookNew
             bool condition = true;
             while (condition)
             {
-                Console.WriteLine("1.Add contact\n2.Edit contact\n3.Delete Contact\n4.Display contacts\n5.Exit");
+                Console.WriteLine("1.Add contact\n2.Edit contact\n3.Delete Contact\n4.Display contacts\n5.Search a person by city/state\n6.Exit");
                 Console.WriteLine("Choose any option : ");
                 int option=Convert.ToInt32(Console.ReadLine());
                 switch (option)
@@ -72,6 +72,23 @@ namespace AddressBookNew
                         }
                         break;
                     case 5:
+                        Console.WriteLine("Enter city/state");
+                        string name2= Console.ReadLine();
+                        var filteredContacts = contacts.Where(c => c.city.Equals(name2) || c.state.Equals(name2));
+
+                        if (filteredContacts.Any())
+                        {
+                            foreach(var item in filteredContacts)
+                            {
+                                item.printRecord();
+                            }
+                        }
+                        else
+                        {
+                            Console.WriteLine("No contacts found in the specified city/state.");
+                        }
+                        break;
+                    case 6:
                         condition=false;
                         break;
                 }

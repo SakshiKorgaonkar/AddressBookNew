@@ -34,7 +34,7 @@ namespace AddressBookNew
                             Console.WriteLine("Address book added successfully");
                         }
                         break;
-                        case 2:
+                    case 2:
                         Console.WriteLine("Enter name of address book to edit : ");
                         string name1= Console.ReadLine();
                         if (dictionary.ContainsKey(name1))
