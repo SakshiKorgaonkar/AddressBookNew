@@ -88,7 +88,7 @@ namespace AddressBookNew
                         }
                         break;
                     case 6:
-                        Console.WriteLine("Sorted list of contacts : ");
+                        Console.WriteLine("Sort contacts on the basis of : ");
                         contacts.Sort();
                         foreach(Contact contact1 in contacts)
                         {

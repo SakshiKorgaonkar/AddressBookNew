@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -36,16 +37,35 @@ namespace AddressBookNew
             Console.WriteLine("Enter phone number : ");
             phone = Convert.ToInt32(Console.ReadLine());
         }
-
         public int CompareTo(Contact? other)
         {
             if (other == null)
             {
-                return 1; // If other contact is null, this contact is greater
+                return 1;
             }
-            return string.Compare(this.firstName, other.firstName, StringComparison.OrdinalIgnoreCase);
+            string choice = Console.ReadLine();
+            if (choice == "city")
+            {  
+                return this.city.CompareTo(other.city);
+            }
+            if (choice == "state")
+            {
+                return this.state.CompareTo(other.state);
+            }
+            if (choice == "zip")
+            {
+                if (this.zip > other.zip)
+                {
+                    return 1;
+                }
+                if(this.zip< other.zip)
+                {
+                    return -1;
+                }
+                return 0;
+            }
+            return string.Compare(this.firstName,other.firstName, StringComparison.OrdinalIgnoreCase);
         }
-
         public void printRecord()
         {
             Console.WriteLine($"First Name : {firstName}");
