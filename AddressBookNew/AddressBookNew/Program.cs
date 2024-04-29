@@ -4,9 +4,8 @@ namespace AddressBookNew
     internal class AddressBookMain
     {
         static List<Contact> contacts = new List<Contact>();
-        static void Main(string[] args)
+        public void Menu()
         {
-            Console.WriteLine("Welcome to Address Book Program");
             bool condition = true;
             while (condition)
             {
@@ -69,7 +68,6 @@ namespace AddressBookNew
                     case 5:
                         condition=false;
                         break;
-
                 }
             }
         }
