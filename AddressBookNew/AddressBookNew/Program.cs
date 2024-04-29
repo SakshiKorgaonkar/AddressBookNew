@@ -9,7 +9,7 @@ namespace AddressBookNew
             bool condition = true;
             while (condition)
             {
-                Console.WriteLine("1.Add contact\n2.Edit contact\n3.Delete Contact\n4.Display contacts\n5.Search a person by city/state\n6.Exit");
+                Console.WriteLine("1.Add contact\n2.Edit contact\n3.Delete Contact\n4.Display contacts\n5.Search a person by city/state\n6.Sort person by name\n7.Exit");
                 Console.WriteLine("Choose any option : ");
                 int option=Convert.ToInt32(Console.ReadLine());
                 switch (option)
@@ -67,7 +67,7 @@ namespace AddressBookNew
                     case 4:
                         foreach (Contact contact1 in contacts)
                         {
-                            contact1.printRecord();
+                            Console.WriteLine(contact1.ToString());
                         }
                         break;
                     case 5:
@@ -79,7 +79,7 @@ namespace AddressBookNew
                         {
                             foreach(var item in filteredContacts)
                             {
-                                item.printRecord();
+                                Console.WriteLine(item.ToString());
                             }
                         }
                         else
@@ -88,6 +88,14 @@ namespace AddressBookNew
                         }
                         break;
                     case 6:
+                        Console.WriteLine("Sorted list of contacts : ");
+                        contacts.Sort();
+                        foreach(Contact contact1 in contacts)
+                        {
+                            Console.WriteLine(contact1.ToString());
+                        }
+                        break;
+                    case 7:
                         condition=false;
                         break;
                 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AddressBookNew
 {
-    internal class Contact
+    internal class Contact : IComparable<Contact>
     {
         internal string? firstName;
         internal string? lastName;
@@ -36,6 +36,16 @@ namespace AddressBookNew
             Console.WriteLine("Enter phone number : ");
             phone = Convert.ToInt32(Console.ReadLine());
         }
+
+        public int CompareTo(Contact? other)
+        {
+            if (other == null)
+            {
+                return 1; // If other contact is null, this contact is greater
+            }
+            return string.Compare(this.firstName, other.firstName, StringComparison.OrdinalIgnoreCase);
+        }
+
         public void printRecord()
         {
             Console.WriteLine($"First Name : {firstName}");
@@ -46,6 +56,16 @@ namespace AddressBookNew
             Console.WriteLine($"State : {state}");
             Console.WriteLine($"ZIP code : {zip}");
             Console.WriteLine($"Phone number : {phone}");
+        }
+        public override String ToString()
+        {
+            return "Name: " + firstName + " " + lastName +
+                    ", Address: " + address +
+                    ", City: " + city +
+                    ", State: " + state +
+                    ", Zip: " + zip +
+                    ", Phone Number: " + phone +
+                    ", Email: " + email;
         }
     }
 }
