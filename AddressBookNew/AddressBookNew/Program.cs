@@ -89,8 +89,24 @@ namespace AddressBookNew
                         break;
                     case 6:
                         Console.WriteLine("Sort contacts on the basis of : ");
-                        contacts.Sort();
-                        foreach(Contact contact1 in contacts)
+                        string name3= Console.ReadLine();
+                        if (name3 == "city")
+                        {
+                            contacts.Sort((c, c1) => c.city.CompareTo(c1.city));
+                        }
+                        if (name3 == "state")
+                        {
+                            contacts.Sort((c, c1) => c.state.CompareTo(c1.state));
+                        }
+                        if (name3 == "zip")
+                        {
+                            contacts.Sort((c, c1) => c.zip.CompareTo(c1.zip));
+                        }
+                        else
+                        {
+                            contacts.Sort((c, c1) => c.firstName.CompareTo(c1.firstName));
+                        }
+                        foreach (Contact contact1 in contacts)
                         {
                             Console.WriteLine(contact1.ToString());
                         }

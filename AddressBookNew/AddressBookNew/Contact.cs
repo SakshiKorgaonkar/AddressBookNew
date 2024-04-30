@@ -7,16 +7,16 @@ using System.Threading.Tasks;
 
 namespace AddressBookNew
 {
-    internal class Contact : IComparable<Contact>
+    internal class Contact 
     {
-        internal string? firstName;
-        internal string? lastName;
-        internal string? email;
-        internal int? phone;
-        internal string? address;
-        internal string? city;
-        internal string? state;
-        internal int? zip;
+        public string? firstName;
+        public string? lastName;
+        public string? email;
+        public int? phone;
+        public string? address;
+        public string? city;
+        public string? state;
+        public string? zip;
 
         public void acceptRecord()
         {
@@ -33,38 +33,9 @@ namespace AddressBookNew
             Console.WriteLine("Enter state : ");
             state=Console.ReadLine();
             Console.WriteLine("Enter zip : ");
-            zip=Convert.ToInt32(Console.ReadLine());
+            zip=Console.ReadLine();
             Console.WriteLine("Enter phone number : ");
             phone = Convert.ToInt32(Console.ReadLine());
-        }
-        public int CompareTo(Contact? other)
-        {
-            if (other == null)
-            {
-                return 1;
-            }
-            string choice = Console.ReadLine();
-            if (choice == "city")
-            {  
-                return this.city.CompareTo(other.city);
-            }
-            if (choice == "state")
-            {
-                return this.state.CompareTo(other.state);
-            }
-            if (choice == "zip")
-            {
-                if (this.zip > other.zip)
-                {
-                    return 1;
-                }
-                if(this.zip< other.zip)
-                {
-                    return -1;
-                }
-                return 0;
-            }
-            return string.Compare(this.firstName,other.firstName, StringComparison.OrdinalIgnoreCase);
         }
         public void printRecord()
         {
