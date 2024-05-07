@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "1GlWeWpPd+0T9Oem3Dr2LUBVsS7HnIK/R80TpbyVlMEihAccem5fw4gnM4G7q7jPcc9EjGn5LkJ4G3/u2dBDog==",
+  "dgSpecHash": "QfolFwuN3NjhS87o8KQdJfKEYCwW9k1A7d+rwD7BqangQh44Pewhv6ceN/YotxDo4gaZrerpicXvwz7ply+MHA==",
   "success": true,
   "projectFilePath": "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_Assignment1\\AddressBookNew\\AddressBookNew\\AddressBookNew\\AddressBookNew.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\DELL\\.nuget\\packages\\csvhelper\\32.0.1\\csvhelper.32.0.1.nupkg.sha512"
+    "C:\\Users\\DELL\\.nuget\\packages\\csvhelper\\32.0.1\\csvhelper.32.0.1.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

@@ -4,6 +4,7 @@ using System.Globalization;
 using System;
 using CsvHelper.Configuration;
 using System.Reflection.PortableExecutable;
+using Newtonsoft.Json;
 
 namespace AddressBookNew
 {
@@ -15,7 +16,7 @@ namespace AddressBookNew
             bool condition = true;
             while (condition)
             {
-                Console.WriteLine("1.Add contact\n2.Edit contact\n3.Delete Contact\n4.Display contacts\n5.Search a person by city/state\n6.Sort person by name\n7.Save contacts to file\n8.Save contacts to csv file\n9.Exit");
+                Console.WriteLine("1.Add contact\n2.Edit contact\n3.Delete Contact\n4.Display contacts\n5.Search a person by city/state\n6.Sort person by name\n7.Save contacts to file\n8.Save contacts to csv file\n9.Save contacts to json file\n10.Exit");
                 Console.WriteLine("Choose any option : ");
                 int option=Convert.ToInt32(Console.ReadLine());
                 switch (option)
@@ -130,6 +131,12 @@ namespace AddressBookNew
                         ReadContactsFromCSVFile(path1);
                         break;
                     case 9:
+                        string path2 = "e:\\contacts.json";
+                        SaveContactsToJsonFile(path2);
+                        Console.WriteLine("Contact saved into json file");
+                        ReadContactsFromJsonFile(path2);
+                        break;
+                    case 10:
                         condition=false;
                         break;
                 }
@@ -142,6 +149,20 @@ namespace AddressBookNew
                 foreach (Contact contact in contacts)
                 {
                     writer.WriteLine(contact.ToString());
+                }
+            }
+        }
+        public void ReadContactsFromFile(string path)
+        {
+            using (StreamReader reader = new StreamReader(path))
+            {
+                foreach (Contact contact in contacts)
+                {
+                    string line;
+                    while ((line = reader.ReadLine()) != null)
+                    {
+                        Console.WriteLine($"{line}");
+                    }
                 }
             }
         }
@@ -171,20 +192,25 @@ namespace AddressBookNew
                 }
             }
         }
-        public void ReadContactsFromFile(string path)
+        public void SaveContactsToJsonFile(string path)
         {
-            using (StreamReader reader = new StreamReader(path))
+            using (StreamWriter writer = new StreamWriter(path))
             {
                 foreach (Contact contact in contacts)
                 {
-                    string line;
-                    while ((line = reader.ReadLine()) != null)
-                    {
-                        Console.WriteLine($"{line}");
-                    }
+                    string json = JsonConvert.SerializeObject(contact);
+                    writer.WriteLine(json); 
                 }
             }
         }
-
+        public void ReadContactsFromJsonFile(string path)
+        {
+            string[] jsonData = File.ReadAllLines(path);
+            foreach (string item in jsonData)
+            {
+                Contact deserializedContact = JsonConvert.DeserializeObject<Contact>(item);
+                Console.WriteLine($"Name: {deserializedContact.firstName}, Last Name: {deserializedContact.lastName}");
+            }
+        }
     }
 }
