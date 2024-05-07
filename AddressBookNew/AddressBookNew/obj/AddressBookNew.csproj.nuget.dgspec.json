@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_day3\\AddressBookNew\\AddressBookNew\\AddressBookNew\\AddressBookNew.csproj": {}
+    "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_Assignment1\\AddressBookNew\\AddressBookNew\\AddressBookNew\\AddressBookNew.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_day3\\AddressBookNew\\AddressBookNew\\AddressBookNew\\AddressBookNew.csproj": {
+    "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_Assignment1\\AddressBookNew\\AddressBookNew\\AddressBookNew\\AddressBookNew.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_day3\\AddressBookNew\\AddressBookNew\\AddressBookNew\\AddressBookNew.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_Assignment1\\AddressBookNew\\AddressBookNew\\AddressBookNew\\AddressBookNew.csproj",
         "projectName": "AddressBookNew",
-        "projectPath": "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_day3\\AddressBookNew\\AddressBookNew\\AddressBookNew\\AddressBookNew.csproj",
+        "projectPath": "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_Assignment1\\AddressBookNew\\AddressBookNew\\AddressBookNew\\AddressBookNew.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_day3\\AddressBookNew\\AddressBookNew\\AddressBookNew\\obj\\",
+        "outputPath": "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_Assignment1\\AddressBookNew\\AddressBookNew\\AddressBookNew\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",

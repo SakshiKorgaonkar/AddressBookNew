@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_day3\\AddressBookNew\\AddressBookNew\\",
+  "WorkspaceRootPath": "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_Assignment1\\AddressBookNew\\AddressBookNew\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{598EC68F-3B24-4F2C-A68B-9A3F1EB39AA7}|AddressBookNew\\AddressBookNew.csproj|c:\\users\\dell\\onedrive - here global b.v\\desktop\\cdac\\bridgelabz_day3\\addressbooknew\\addressbooknew\\addressbooknew\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{598EC68F-3B24-4F2C-A68B-9A3F1EB39AA7}|AddressBookNew\\AddressBookNew.csproj|c:\\users\\dell\\onedrive - here global b.v\\desktop\\cdac\\bridgelabz_assignment1\\addressbooknew\\addressbooknew\\addressbooknew\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{598EC68F-3B24-4F2C-A68B-9A3F1EB39AA7}|AddressBookNew\\AddressBookNew.csproj|solutionrelative:addressbooknew\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{598EC68F-3B24-4F2C-A68B-9A3F1EB39AA7}|AddressBookNew\\AddressBookNew.csproj|c:\\users\\dell\\onedrive - here global b.v\\desktop\\cdac\\bridgelabz_day3\\addressbooknew\\addressbooknew\\addressbooknew\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{598EC68F-3B24-4F2C-A68B-9A3F1EB39AA7}|AddressBookNew\\AddressBookNew.csproj|c:\\users\\dell\\onedrive - here global b.v\\desktop\\cdac\\bridgelabz_assignment1\\addressbooknew\\addressbooknew\\addressbooknew\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{598EC68F-3B24-4F2C-A68B-9A3F1EB39AA7}|AddressBookNew\\AddressBookNew.csproj|solutionrelative:addressbooknew\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{598EC68F-3B24-4F2C-A68B-9A3F1EB39AA7}|AddressBookNew\\AddressBookNew.csproj|c:\\users\\dell\\onedrive - here global b.v\\desktop\\cdac\\bridgelabz_day3\\addressbooknew\\addressbooknew\\addressbooknew\\dictionary1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{598EC68F-3B24-4F2C-A68B-9A3F1EB39AA7}|AddressBookNew\\AddressBookNew.csproj|c:\\users\\dell\\onedrive - here global b.v\\desktop\\cdac\\bridgelabz_assignment1\\addressbooknew\\addressbooknew\\addressbooknew\\dictionary1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{598EC68F-3B24-4F2C-A68B-9A3F1EB39AA7}|AddressBookNew\\AddressBookNew.csproj|solutionrelative:addressbooknew\\dictionary1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,25 +28,24 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Dictionary1.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_day3\\AddressBookNew\\AddressBookNew\\AddressBookNew\\Dictionary1.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_Assignment1\\AddressBookNew\\AddressBookNew\\AddressBookNew\\Dictionary1.cs",
               "RelativeDocumentMoniker": "AddressBookNew\\Dictionary1.cs",
-              "ToolTip": "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_day3\\AddressBookNew\\AddressBookNew\\AddressBookNew\\Dictionary1.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_Assignment1\\AddressBookNew\\AddressBookNew\\AddressBookNew\\Dictionary1.cs",
               "RelativeToolTip": "AddressBookNew\\Dictionary1.cs",
               "ViewState": "AQIAACUAAAAAAAAAAAAQwCQAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T18:35:26.879Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_day3\\AddressBookNew\\AddressBookNew\\AddressBookNew\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_Assignment1\\AddressBookNew\\AddressBookNew\\AddressBookNew\\Program.cs",
               "RelativeDocumentMoniker": "AddressBookNew\\Program.cs",
-              "ToolTip": "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_day3\\AddressBookNew\\AddressBookNew\\AddressBookNew\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_Assignment1\\AddressBookNew\\AddressBookNew\\AddressBookNew\\Program.cs",
               "RelativeToolTip": "AddressBookNew\\Program.cs",
-              "ViewState": "AQIAAFsAAAAAAAAAAAAQwGcAAAAAAAAA",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAQwGcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T13:19:19.226Z",
               "EditorCaption": ""
@@ -55,14 +54,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Contact.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_day3\\AddressBookNew\\AddressBookNew\\AddressBookNew\\Contact.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_Assignment1\\AddressBookNew\\AddressBookNew\\AddressBookNew\\Contact.cs",
               "RelativeDocumentMoniker": "AddressBookNew\\Contact.cs",
-              "ToolTip": "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_day3\\AddressBookNew\\AddressBookNew\\AddressBookNew\\Contact.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_Assignment1\\AddressBookNew\\AddressBookNew\\AddressBookNew\\Contact.cs",
               "RelativeToolTip": "AddressBookNew\\Contact.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAQwCMAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T15:21:29.204Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T15:21:29.204Z"
             }
           ]
         }
