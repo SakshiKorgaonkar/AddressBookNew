@@ -4,11 +4,14 @@ using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CsvHelper.Configuration;
+using CsvHelper.Configuration.Attributes;
 
 namespace AddressBookNew
 {
     internal class Contact 
     {
+  
         public string? firstName;
         public string? lastName;
         public string? email;
@@ -57,6 +60,21 @@ namespace AddressBookNew
                     ", Zip: " + zip +
                     ", Phone Number: " + phone +
                     ", Email: " + email;
+        }
+        
+    }
+    internal class ContactMap : ClassMap<Contact>
+    {
+        public ContactMap()
+        {
+            Map(m => m.firstName).Name("firstName");
+            Map(m => m.lastName).Name("lastName");
+            Map(m => m.email).Name("email");
+            Map(m => m.phone).Name("phone");
+            Map(m => m.address).Name("address");
+            Map(m => m.city).Name("city");
+            Map(m => m.state).Name("state");
+            Map(m => m.zip).Name("zip");
         }
     }
 }

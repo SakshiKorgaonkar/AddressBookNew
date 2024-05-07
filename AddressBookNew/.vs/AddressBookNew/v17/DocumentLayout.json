@@ -32,10 +32,11 @@
               "RelativeDocumentMoniker": "AddressBookNew\\Dictionary1.cs",
               "ToolTip": "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_Assignment1\\AddressBookNew\\AddressBookNew\\AddressBookNew\\Dictionary1.cs",
               "RelativeToolTip": "AddressBookNew\\Dictionary1.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAQwCQAAAAVAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAqwDEAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T18:35:26.879Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -45,7 +46,7 @@
               "RelativeDocumentMoniker": "AddressBookNew\\Program.cs",
               "ToolTip": "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_Assignment1\\AddressBookNew\\AddressBookNew\\AddressBookNew\\Program.cs",
               "RelativeToolTip": "AddressBookNew\\Program.cs",
-              "ViewState": "AQIAAFUAAAAAAAAAAAAQwGcAAAAAAAAA",
+              "ViewState": "AQIAAKwAAAAAAAAAAAAewJwAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T13:19:19.226Z",
               "EditorCaption": ""
@@ -58,9 +59,10 @@
               "RelativeDocumentMoniker": "AddressBookNew\\Contact.cs",
               "ToolTip": "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_Assignment1\\AddressBookNew\\AddressBookNew\\AddressBookNew\\Contact.cs",
               "RelativeToolTip": "AddressBookNew\\Contact.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwCMAAAAhAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAWwCgAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T15:21:29.204Z"
+              "WhenOpened": "2024-04-28T15:21:29.204Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,15 +1,21 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using CsvHelper;
+using System.Globalization;
+using System;
+using CsvHelper.Configuration;
+using System.Reflection.PortableExecutable;
+
 namespace AddressBookNew
 {
-    internal class AddressBookMain
+    internal class AddressBookMain1
     {
         public List<Contact> contacts = new List<Contact>();
-        public void Menu()
+        public void Menul()
         {
             bool condition = true;
             while (condition)
             {
-                Console.WriteLine("1.Add contact\n2.Edit contact\n3.Delete Contact\n4.Display contacts\n5.Search a person by city/state\n6.Sort person by name\n7.Exit");
+                Console.WriteLine("1.Add contact\n2.Edit contact\n3.Delete Contact\n4.Display contacts\n5.Search a person by city/state\n6.Sort person by name\n7.Save contacts to file\n8.Save contacts to csv file\n9.Exit");
                 Console.WriteLine("Choose any option : ");
                 int option=Convert.ToInt32(Console.ReadLine());
                 switch (option)
@@ -112,10 +118,73 @@ namespace AddressBookNew
                         }
                         break;
                     case 7:
+                        string path = "e:\\contacts.txt";
+                        SaveContactsToFile(path);
+                        Console.WriteLine("Contact saved into file successfully");
+                        ReadContactsFromFile(path);
+                        break;
+                    case 8:
+                        string path1 = "e:\\contacts.csv";
+                        SaveContactsToCsvFile(path1);
+                        Console.WriteLine("Contact saved into CSV file successfully");
+                        ReadContactsFromCSVFile(path1);
+                        break;
+                    case 9:
                         condition=false;
                         break;
                 }
             }
         }
+        public void SaveContactsToFile(string path)
+        {
+            using (StreamWriter writer = new StreamWriter(path,true))
+            {
+                foreach (Contact contact in contacts)
+                {
+                    writer.WriteLine(contact.ToString());
+                }
+            }
+        }
+        public void SaveContactsToCsvFile(string path)
+        {
+            using (var writer = new CsvWriter(File.CreateText(path), CultureInfo.InvariantCulture))
+            {
+                writer.Context.RegisterClassMap<ContactMap>();
+                writer.WriteHeader<Contact>();
+                writer.NextRecord();
+                foreach(var contact in contacts)
+                {
+                writer.WriteRecord(contact);
+                writer.NextRecord();
+                }
+            }
+        }
+        public void ReadContactsFromCSVFile(string path)
+        {
+            using (var reader = new CsvReader(File.OpenText(path), CultureInfo.InvariantCulture))
+            {
+                reader.Context.RegisterClassMap<ContactMap>();
+                IEnumerable<Contact> contacts=reader.GetRecords<Contact>();
+                foreach(Contact contact in contacts)
+                {
+                    Console.WriteLine(contact.ToString());
+                }
+            }
+        }
+        public void ReadContactsFromFile(string path)
+        {
+            using (StreamReader reader = new StreamReader(path))
+            {
+                foreach (Contact contact in contacts)
+                {
+                    string line;
+                    while ((line = reader.ReadLine()) != null)
+                    {
+                        Console.WriteLine($"{line}");
+                    }
+                }
+            }
+        }
+
     }
 }

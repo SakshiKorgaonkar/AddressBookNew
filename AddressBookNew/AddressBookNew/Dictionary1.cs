@@ -9,7 +9,7 @@ namespace AddressBookNew
 {
     internal class Dictionary1
     {
-        static Dictionary<string, AddressBookMain> dictionary=new Dictionary<string, AddressBookMain> ();
+        static Dictionary<string, AddressBookMain1> dictionary=new Dictionary<string, AddressBookMain1> ();
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Address Book Program");
@@ -30,7 +30,7 @@ namespace AddressBookNew
                         }
                         else
                         {
-                            dictionary.Add(name,new AddressBookMain());
+                            dictionary.Add(name,new AddressBookMain1());
                             Console.WriteLine("Address book added successfully");
                         }
                         break;
@@ -39,8 +39,8 @@ namespace AddressBookNew
                         string name1= Console.ReadLine();
                         if (dictionary.ContainsKey(name1))
                         {
-                            AddressBookMain addressBook= dictionary[name1];
-                            addressBook.Menu();
+                            AddressBookMain1 addressBook= dictionary[name1];
+                            addressBook.Menul();
                         }
                         else
                         {
